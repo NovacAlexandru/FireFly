@@ -75,14 +75,13 @@ border-right: 2px solid white;
 }
 
 .navbuttons li:hover{
-background-color: orangered;
+background-color: #e1820b;;
+
 }
 
 
   
-
-
-
+/* INDEX */
 
 
 
@@ -127,10 +126,6 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     padding-left: 5rem;
     
    }
-
-  .zi{
-    
-  }
 
    /* Numarul de telefon */
    #numar {
