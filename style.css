@@ -165,6 +165,20 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     color:white;
    }
 
+   /* MENIU */
+
+  .pret-meniu{
+    width: 7rem;
+  }
+
+  .meniu-main .item{
+    /* background-color: red; */
+    /* padding-top:1rem; */
+  }
+
+  .meniu-section{
+    margin-top:2rem;
+  }
    /* Socials */
    #socials {
     /* border:1px solid white; */
