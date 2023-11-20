@@ -166,12 +166,17 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
    }
 
    /* MENIU */
-
+  
   .pret-meniu{
     width: 7rem;
   }
 
   .meniu-main .item{
+    /* background-color: red; */
+    padding-top:1rem; 
+  }
+
+  .meniu-main .pret{
     /* background-color: red; */
     padding-top:1rem; 
   }
