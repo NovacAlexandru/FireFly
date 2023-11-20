@@ -11,7 +11,7 @@
  []   carusel meniu
  []   ---MENIU---
  []   background-image ()
- []   meniu in stilul lor fara imagini
+ [x]   meniu in stilul lor fara imagini
  []   meniu cu milkshare/sucuri cu imagini
  []   ---CONTACT--
  [x]   Program
