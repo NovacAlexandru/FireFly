@@ -1,0 +1,265 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+/* NAVBAR */
+.navbar{
+margin: 0px;
+padding: 0px;
+list-style: none;
+background-color: #C61313;
+font-family: 'Times New Roman', Times, serif;
+width: 100%;
+}
+
+.navbar-ul{
+list-style: none;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+font-size: 30px;
+}
+
+.navbuttons{
+list-style: none;
+background-color: #C61313;
+display: flex;
+font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+/* margin-top: 20px; */
+color: #fefefe;
+/* padding-right: 20px; */
+/* border: 3px solid orange; */
+height: 100%;
+}
+
+.navbuttons a{
+  color:white;
+  text-decoration: none;
+}
+
+.navbuttons li:last-of-type{
+  border-right:0;
+}
+
+#logo{
+height: 70px;
+margin: 0px;
+padding-top: 10px;
+}
+
+#nav-number{
+margin-top: 20px;
+color: #fefefe;
+padding-left: 20px;
+}
+
+#nav-number a{
+color: #fefefe;
+text-decoration: none;
+}
+
+.navbuttons li{
+height: 100%;
+display: flex;
+align-items: center;
+padding: 20px;
+border-right: 2px solid white;
+}
+
+.navbuttons li:hover{
+background-color: orangered;
+}
+
+
+  
+
+
+
+
+
+
+
+/* Contact */
+
+  /* Toata pagina */
+  #container{
+    font-family: 'Times New Roman', Times, serif;
+    color:#e1820b;
+    background: linear-gradient(to bottom, #1a1a1a, #333333);
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border:1px solid white; */
+    font-size: 1.5rem;
+    background-color: #000000;
+background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  }
+
+  #container-program{
+    /* border:1px solid white; */
+    width: 60%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:3rem;
+  }
+
+  /* Programul */
+  #program{
+    /* border:1px solid white; */
+    text-align: center;
+    margin-top:4rem;
+    color:white;
+  }
+
+  .ora{
+    padding-left: 5rem;
+    
+   }
+
+  .zi{
+    
+  }
+
+   /* Numarul de telefon */
+   #numar {
+    /* border:1px solid white; */
+    text-align: center;
+   }
+   
+
+   #numar a{
+    color:white;
+    text-decoration: none;
+   }
+
+   /* Harta */
+   #map {
+    /* border:1px solid white; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    text-align: center;
+   }
+
+   #map iframe{
+      width: 80vw;
+      height: 50vh;
+   }
+
+   #adresa{
+    color:white;
+   }
+
+   /* Socials */
+   #socials {
+    /* border:1px solid white; */
+    width: 100%;
+    font-family: "Raleway" ;
+    font-weight: 700;
+    text-align: center;
+   }
+   
+   #socials a{
+    display:flex;
+    justify-content: space-around;
+    color:#e1820b;
+    text-decoration: none;
+    margin-top:1rem;
+   }
+
+   /* Footer */
+
+   footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    margin-top: 1rem;
+    border-top: 1px solid white;
+   }
+   
+
+
+   @media only screen and (max-width: 600px){
+
+    html{
+      overflow-x: hidden;
+    }
+
+    .navbar-ul{
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font-size: 30px;
+    }
+    #nav-number {
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+    #logodiv{
+      margin: 0 auto;
+      margin-top: 15px;
+      margin-bottom: 30px;
+    }
+  
+    .navbuttons{
+      list-style: none;
+      background-color: #C61313;
+      display: flex;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 30px;
+      color: #fefefe;
+      /* border: 3px solid orange; */
+      height: 100%;
+      margin-right: 0px;
+      padding: 0px;
+      align-items: center;
+    }
+    .navbuttons li{
+      height: 100%;
+      display: flex;
+      align-items: center;
+      /* border-right: 2px solid white; */
+      width: 100%;
+    }
+    
+    .navbuttons a{
+      margin: 0 auto;
+    }
+    .navbuttons li:last-of-type{
+      border-right: 0;
+    }
+    
+    footer{
+      font-size:1rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    #socials{
+      font-size: 1rem;
+      white-space: nowrap;
+    }
+    
+    #map iframe{
+      width: 100vw;
+      height: 50vh;
+   }
+
+  }
+  
