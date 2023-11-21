@@ -177,23 +177,55 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
    /* MENIU */
   
+  .meniu-main{
+    width: 100%;
+    padding:0 10%;
+    display:flex;
+    flex-direction: column;
+  }
+
+  .meniu-main p{
+    overflow: hidden;
+    max-width: 30ch;
+    white-space: wrap;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    font-size:3rem;
+  }
+  
+
   .pret-meniu{
-    width: 7rem;
+   min-width: 7rem;
+   white-space: nowrap;
+   text-align: center;
+  }
+
+  .grill-description{
+    padding-top:1rem;
+  }
+  .ingredients{
+    font-size: 1rem;
+    color:white;
   }
 
   .meniu-main .item{
     /* background-color: red; */
-    padding-top:1rem; 
+    padding-top:1rem;
+    color:white;
   }
 
   .meniu-main .pret{
     /* background-color: red; */
     padding-top:1rem;
-    color:white; 
+    color:white;
+    text-align: center;
+    
   }
 
   .meniu-section{
-    margin-top:2rem;
+    margin-top: 1rem
   }
    /* Socials */
    #socials {
