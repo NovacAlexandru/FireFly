@@ -178,7 +178,8 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
 
   .meniu-main .pret{
     /* background-color: red; */
-    padding-top:1rem; 
+    padding-top:1rem;
+    color:white; 
   }
 
   .meniu-section{
