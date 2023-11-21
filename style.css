@@ -19,6 +19,12 @@ font-family: 'Times New Roman', Times, serif;
 width: 100%;
 }
 
+.flexrow{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
 .navbar-ul{
 list-style: none;
 display: flex;
@@ -53,6 +59,10 @@ height: 100%;
 height: 70px;
 margin: 0px;
 padding-top: 10px;
+}
+
+#logodiv{
+  margin: 0 auto;
 }
 
 #nav-number{
@@ -225,31 +235,50 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
       list-style: none;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      font-size: 30px;
+      /* justify-content: space-between; */
+      font-size: 20px;
     }
     #nav-number {
-      margin: 0 auto;
-      margin-top: 20px;
+      margin-top: 0px;
+      font-size: 30px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      padding: 0;
+      
     }
     #logodiv{
-      margin: 0 auto;
+      /* margin: 0 auto;
       margin-top: 15px;
-      margin-bottom: 30px;
+      margin-bottom: 30px; */
+      margin: 0;
+      padding-left: 10px;
+      padding-bottom: 15px; 
     }
-  
+
+    #logo{
+      padding-top: 0px;
+    }
+
+    .flexrow{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
     .navbuttons{
       list-style: none;
       background-color: #C61313;
       display: flex;
       font-family: 'Times New Roman', Times, serif;
-      font-size: 30px;
+      font-size: 20px;
       color: #fefefe;
       /* border: 3px solid orange; */
       height: 100%;
       margin-right: 0px;
       padding: 0px;
       align-items: center;
+      margin-top: 0px;
     }
     .navbuttons li{
       height: 100%;
