@@ -90,17 +90,6 @@ background-color: #e1820b;;
 }
 
 
- /* MENIU  */
-
- 
-
-
-
-  
-/* INDEX */
-
-
-
 
 /* Contact */
 
@@ -118,7 +107,6 @@ background-color: #e1820b;;
     font-size: 1.5rem;
     background-color: #000000;
 background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   }
 
   #container-program{
@@ -178,8 +166,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
    /* MENIU */
   
   .meniu-main{
-    width: 100%;
-    padding:0 10%;
+    width: 80%;
     display:flex;
     flex-direction: column;
   }
@@ -197,7 +184,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
   
 
   .pret-meniu{
-   min-width: 7rem;
+   width: 7rem;
    white-space: nowrap;
    text-align: center;
   }
@@ -256,12 +243,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
    }
    
 
-
    @media only screen and (max-width: 600px){
-
-    html{
-      overflow-x: hidden;
-    }
 
     .navbar-ul{
       list-style: none;
@@ -341,6 +323,18 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     #map iframe{
       width: 100vw;
       height: 50vh;
+   }
+
+   .meniu-main{
+    font-size:1rem;
+   }
+   .meniu-main table{
+    width: 80%;
+    margin:0 auto;
+   }
+
+   .meniu-main p{
+    font-size: 1.5rem;
    }
 
   }
