@@ -482,6 +482,19 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     padding: 10px;
     }
 
+    .slider-nav a{
+      width: 1rem;
+      height: 1rem;
+      border-radius: 50%;
+      background-color: #e1820b;
+      opacity: 0.75;
+      transition: opacity ease 250ms;
+     }
+
+     .slider-nav{
+      column-gap: 2rem;
+     }
+
     .ingredients{
       width: 100%;
     }
