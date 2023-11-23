@@ -480,7 +480,15 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
    }
    .container-slider{
     padding: 10px;
- }
+    }
+
+    .ingredients{
+      width: 100%;
+    }
+
+    .pret{
+      white-space: nowrap;
+    }
  }
   
   
