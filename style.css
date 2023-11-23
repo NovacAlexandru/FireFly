@@ -173,6 +173,16 @@ background-color: #e1820b;
   height: 100%;
 }
 
+.subtext-container{
+  text-align: center;
+}
+
+.subtext-container p{
+  padding-top: 10px;
+  color: white;
+  font-weight: bold;
+}
+
 /* Contact */
 
   /* Toata pagina */
@@ -553,6 +563,13 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
       display: flex;
       flex-direction: row;
       gap: 0;
+    }
+
+    .subtext-container p{
+      padding-top: 10px;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
     }
  }
   

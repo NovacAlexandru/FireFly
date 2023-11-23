@@ -1,26 +1,6 @@
-    ---ALL PAGES---
- [x]   Navbar
- [x]     -numar de contact
- [x]     -butoane
- [x]   Footer
- []
-   ---INDEX---
- []   background-image
- []   slide imagine generala
- []   Descriere
- []   carusel meniu
- []   ---MENIU---
- []   background-image ()
- [x]   meniu in stilul lor fara imagini
- []   meniu cu milkshare/sucuri cu imagini
- items sa fie alb 
- centrez pe telefon
- micsorez fontul la ingrediente
-maresc footer distance 
-va oferim spatiu
-
- []   ---CONTACT--
- [x]   Program
- [x]   Numar telefon
- []   animatii cu pagina facebook etc
- [x]   iframe cu locatia
+1. Sa stilizam footerul
+2. Sa punem urmatorul paragraf din index
+3. Sa stilizez in mobile celelalte paragrafe din index
+4. Ultimele verificari la pagina de dictie
+5. Sa schimbam prima poza de la slide
+6. (BUG) Atunci cand apesi pe butoanele de la slide, pagina se duce in jos. Parerea mea este ca cauza bugului este faptul ca slide-ul este facut cu ancore, ceea ce cauzeaza pagina sa sara la ancora(in cazul nostru imaginea)
