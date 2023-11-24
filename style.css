@@ -294,13 +294,14 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     /* background-color: red; */
     padding-top:1rem;
     color:white;
+    width: 50%;
   }
 
   .meniu-main .pret{
     /* background-color: red; */
     padding-top:1rem;
     color:white;
-    text-align: center;
+    text-align: start;
     
   }
 
@@ -519,6 +520,20 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     margin:0 auto;
    }
 
+   .meniu-main .pret{
+    text-align: center;
+   }
+
+   .meniu-main .pret{
+    text-align: center;
+
+   }
+  
+  
+   .pret-meniu{
+    min-width: 3rem;
+   }
+  
    .meniu-main p{
     font-size: 1.5rem;
    }
