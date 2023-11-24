@@ -1,6 +1,0 @@
-1. Sa stilizam footerul
-2. Sa punem urmatorul paragraf din index
-3. Sa stilizez in mobile celelalte paragrafe din index
-4. Ultimele verificari la pagina de dictie
-5. Sa schimbam prima poza de la slide
-6. (BUG) Atunci cand apesi pe butoanele de la slide, pagina se duce in jos. Parerea mea este ca cauza bugului este faptul ca slide-ul este facut cu ancore, ceea ce cauzeaza pagina sa sara la ancora(in cazul nostru imaginea)
