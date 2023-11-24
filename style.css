@@ -524,11 +524,10 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     text-align: center;
    }
 
-   .meniu-main .pret{
-    text-align: center;
-
+   .meniu-main .item{
+    text-align: start;
    }
-  
+
   
    .pret-meniu{
     min-width: 3rem;
@@ -559,7 +558,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
      }
 
     .ingredients{
-      width: 100%;
+    width: 100%;
     }
 
     .pret{
